@@ -1,12 +1,27 @@
 .condition {
-  float: left;
+  text-align: center;
+  width: 40%;
+}
+.menu {
+  display: inline-block;
+  width: 100%;
+}
+.cel {
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  border: solid 1.5px #000;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
 }
 
 .output {
-  float: right;
   text-align: center;
   height: 100px;
-  width: 50%;
+  width: 40%;
+  padding: 0 auto;
+  margin: 10px;
 }
 
 .btn {
@@ -15,9 +30,9 @@
   line-height: 50px;
   color: #fff;
   background-color: #337ab7;
-  width: 100px;
+  width: 200px;
   height: 50px;
-  text-decoration: none;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: #1f4a70;
