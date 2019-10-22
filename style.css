@@ -1,0 +1,29 @@
+.condition {
+  float: left;
+}
+
+.output {
+  float: right;
+  text-align: center;
+  height: 100px;
+  width: 50%;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  background-color: #337ab7;
+  width: 100px;
+  height: 50px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #1f4a70;
+}
+
+textarea {
+  height: 100px;
+  width: 100%;
+}

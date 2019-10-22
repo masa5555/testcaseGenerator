@@ -6,3 +6,5 @@ function copyToClipboard() {
   // 選択しているテキストをクリップボードにコピーする
   document.execCommand("Copy");
 }
+var copyClick = document.getElementById("copyTarget");
+copyClick.addEventListener("click", copyToClipboard, false);
