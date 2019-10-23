@@ -4,18 +4,21 @@
     <meta charset="utf-8">
     <title>TestcaseGenerator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   </head>
   <body>
     <div class="condition">
       <div class="menu">
         <p>SIZE</p>
-        <div class="cel" value="100">100</div>
-        <div class="cel" value="1000">1000</div>
+        <div class="cel size notSelected" value="100">100</div>
+        <div class="cel size notSelected" value="1000">1000</div>
+        <div class="cel size notSelected" value="100000">10^5</div>
+        <div class="cel size notSelected" value="1000000000">10^9</div>
       </div>
       <div class="menu">
         <p>TYPE</p>
-        <div class="cel" value="sequence">sequence</div>
-        <div class="cel" value="string">string</div>
+        <div class="cel type notSelected" value="sequence">sequence</div>
+        <div class="cel type notSelected" value="string">string</div>
       </div>
     </div>
     <div class="output">

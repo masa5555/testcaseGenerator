@@ -15,7 +15,14 @@
   height: 50px;
   cursor: pointer;
 }
-
+.notSelected {
+  background-color: white;
+  color: black;
+}
+.selected {
+  background-color: black;
+  color: white;
+}
 .output {
   text-align: center;
   height: 100px;
