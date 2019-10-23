@@ -1,14 +1,14 @@
 # TestcaseGenerator for competitive programming
 
+- 現在の問題
+  - sizeのvalueが取得できない 
+    - text取得で代替
+  - 文字列生成
+
 # TODO
 - generate & copy
   - 選択されている値を取得し、testcaseを生成する関数を作る
-
-- select type (select menu )
-  - 選択されているかどうか判定、既に選択されているなら、新しいほうに更新する
-  - click judge funciton (only one choose)
-  - size (100, 1000, 10^5, 10^9)
-  - type (sequence, string, graph)
-
+- select the range of element ( -n~n || 0~n || 1~n )
+- type (sequence, string, graph, pair,)
 
 - copied animation (button)
