@@ -1,6 +1,11 @@
 # Testcase Generator for Competitive Programming
-# Tech
-jQuery,css
-# URL
+## Tech
+
+#### jQuery
+
+## URL
+
 https://masa5555.github.io/testcaseGenerator/
-# DEMO
+
+## DEMO
+GIF
