@@ -31,8 +31,10 @@ $( function() {
   
   // Call when click the "Copy & Generate" button
   $(".btn" ).click( function(){
-    // 
+    
+    // On codition that selected 2 types of buttons
     if( $( ".size" ).hasClass( "selected" ) && $( ".type" ).hasClass( "selected" ) ){
+      
       // Input
       let size = $( ".size.selected" ).text();
       let type = $( ".type.selected" ).text();
@@ -61,8 +63,9 @@ $( function() {
       $( "textarea" ).text( testStr );
       copyToClipboard();
 
-    }else{ // Invalied selection 
+    }else{ // Invalied selection
       alert( "選択されていません" );
     }
+    
   })
 })
